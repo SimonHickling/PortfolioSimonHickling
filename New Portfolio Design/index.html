@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">   
+    <title>Simon Hickling Portfolio</title>
+</head>
+<body>
+<label class="hamburger-menu" id="hamburger-menu" aria-controls="navbar">
+    <input id="hamburger-checkbox" type="checkbox" aria-label="open and close sidebar"/>
+</label>
+<nav class="nav-bar" id="nav-bar">
+    <ul>
+        <li class="home-li"><a class="active-link" href="#home">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#examples">examples</a></li>
+        <li><a href="#contact">contact</a></li>
+        <li><a href="">c.v.</a></li>
+    </ul>
+</nav>
+<div id="overlay" aria-hidden="true"></div>
+<div class="grid-container">
+    <section class="home-bar" id="home">
+        <div class="name-header fade-in"><h1>simon hickling</h1><h6>portfolio</h6></div>
+    </section>
+    <section class="about-bar" id="about"><div class="about-info fade-in"><h3>web-developer - software-engineer - graphic designer</h3><br>html, css, bootstrap, react, redux, javascript, python, photoshop, lightroom, indesign...</div></section>
+     <section class="examples-bar" id="examples">
+        <div class="tile example-one fade-in">
+            <img src="assets/images/tile_design.jpg">
+            <a href="design_page/design.html" target="_blank"><div href="" id="tile-overlay"></div></a>
+            <h2><a href="design_page/design.html" target="_blank">design</a></h2>
+        </div>
+        <div class="tile example-two fade-in">
+            <img src="assets/images/CalorieCounter.jpg">
+            <a href="Calorie_Counter_JS/CCindex.html" target="_blank"><div id="tile-overlay"></div></a>
+            <h2><a href="Calorie_Counter_JS/CCindex.html" target="_blank">calorie counter app</a></h2>
+        </div>
+        <div class="tile example-three fade-in">
+            <img src="assets/images/ToDo.jpg">
+            <a href="ToDo_App/TDindex.html" target="_blank"><div id="tile-overlay"></div></a>
+            <h2><a href="ToDo_App/TDindex.html" target="_blank">to do app</a></h2>
+        </div>
+        <div class="tile example-four fade-in">
+            <img src="assets/images/roman_background.jpg">
+            <a href="Roman_Numeral_Converter/RNCindex.html" target="_blank"><div id="tile-overlay"></div></a>
+            <h2><a href="Roman_Numeral_Converter/RNCindex.html" target="_blank">roman numeral algorithm</a></h2>
+        </div>
+        <div class="tile example-five fade-in">
+            <img src="assets/images/MusicPlayer.jpg">
+            <a href="Music_Player/MPIndex.html" target="_blank"><div id="tile-overlay"></div></a>
+            <h2><a href="Music_Player/MPIndex.html" target="_blank">music player</a></h2>
+        </div>
+        <div class="tile example-six fade-in">
+            <img src="assets/images/UserFilter.jpg">
+            <a href="User_filtering/UFindex.html" target="_blank"><div href="" id="tile-overlay"></div></a>
+            <h2><a href="User_filtering/UFindex.html" target="_blank">user filtering demo</a></h2>
+        </div>
+     </section>
+    <section class="contact-bar" id="contact">
+        <div class="address fade-in">address:<br><br> flat 2, 69 hillfield park<br>muswell hill<br>london<br><br>n10 3qu</div>
+        <div class="email-address fade-in">email:<br><br>simon.hickling6@gmail.com</div>
+        <div class="telephone fade-in">tel:<br><br>+44 (0) 7525778322</div>
+    </section>
+</div>
+<footer>
+    <div class="footer-content">
+        <p>all photography, images and coding created by simon hickling
+        </p>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
