@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Simon Hickling | Time tracking dashboard</title>
+</head>
+<body>
+<div class="user-card">
+  <img class="user-image" src="images/image-jeremy.png">
+  <div class="user-card-content">
+  <p>Report for<p>
+  <h2>Jeremy Robson</h2>
+ </div>
+<div class="time-selector">
+  <ul>
+    <LI><button class="activity-tracker_option daily active" data-option="daily">Daily</button></a></LI>
+    <LI><button class="activity-tracker_option weekly" data-option="weekly">Weekly</button></a></LI>
+    <LI><button class="activity-tracker_option monthly" data-option="monthly">Monthly</button></a></LI>
+  </ul>
+</div>
+</div>
+
+<div class="activity-tracker_activity template-card work-card">
+  <div class="card-icon"><img src="images/icon-work.svg"></div>
+  <div class="card-content">
+  <h5>Work</h5>
+  <h1 class="daily current_work">5hrs</h1> 
+  <p class="daily previous_work">Previous - 7hrs</p> 
+</div>
+</div>
+<div class="activity-tracker_activity template-card play-card">
+  <div class="card-icon"><img src="images/icon-play.svg"></div>
+  <div class="card-content">
+  <h5>Play</h5>
+  <h1 class="daily current_play">1hrs</h1>
+  <p class="daily previous_play">Previous - 2hrs</p> 
+</div>
+</div>
+<div class="activity-tracker_activity template-card study-card">
+  <div class="card-icon"><img src="images/icon-study.svg"></div>
+  <div class="card-content">
+  <h5>Study</h5>
+  <h1 class="daily current_study">0hrs</h1> 
+  <p class="daily previous_study">Previous - 1hr</p> 
+</div>
+</div>
+<div class="activity-tracker_activity template-card exercise-card">
+  <div class="card-icon"><img src="images/icon-exercise.svg"></div>
+  <div class="card-content">
+  <h5>Exercise</h5>
+  <h1 class="daily current_exercise">1hr</h1> 
+  <p class="daily previous_exercise">Previous - 1hr</p> 
+</div>
+  </div>
+ <div class="activity-tracker_activity template-card social-card">
+  <div class="card-icon"><img src="images/icon-social.svg"></div>
+  <div class="card-content">
+  <h5>Social</h5>
+  <h1 class="daily current_social">1hr</h1> 
+  <p class="daily previous_social">Previous - 3hrs</p> 
+ 
+</div>
+</div>
+  <div class="activity-tracker_activity template-card self-card">
+    <div class="card-icon"><img src="images/icon-self-care.svg"></div>
+    <div class="card-content">
+  <h5>Self Care</h5>
+  <h1 class="daily current_self">0hrs</h1> 
+  <p class="daily previous_self">Previous - 1hr</p> 
+</div>
+</div>
+
+  
+
+  <script src="script.js"></script>
+ 
+</body>
+</html>
